@@ -1,0 +1,198 @@
+body{margin:0 auto;
+padding:0px;
+text-align: center; border-width: 0PX}
+
+#container1{background-color:#ca3d26;width:1110px;height:2450px;border-radius: 7px;border-color:white;border-style: double;border-width: 50px}
+.logo{position: relative;width: 750px;height: 650px;display: inline-block;float:center;margin-top:50px;}
+.clear{clear:both;margin:0px;padding:0px;}
+.loveanimation{
+  background-color:none;
+  animation-name:loveanimation;
+  animation-duration: 2s;
+  animation-iteration-count:1;
+  animation-fill-mode: forwards;
+  top: -5px;
+}
+@keyframes loveanimation {
+  0%   { left:-400px;}
+  100%  { left:210px;}
+ }
+#container2{background-color:#ca3d26;width:1110px;height:2650px;border-radius: 7px;border-color:white;border-style: double;border-width: 50px}
+.logo2{position: relative;width: 500px;height: 400px;display: inline-block;float:center;margin-top:50px;}
+#container3{background-color:#ca3d26;width:1110px;height:5050px;border-radius: 7px;border-color:white;border-style: double;border-width: 50px}
+
+
+ .food-h3{color:black;font-family:sans-serif;display: inline-block;}
+ .love-h3{color:white;font-family:sans-serif;display: inline-block;}
+ .loveanimation{width: 350px;height: 150px;position:relative;font-size: 43px;margin: 0px;padding: 0px;float:left;display: inline-block;position:0px,0px;}
+ .loveanimation2{position:relative;font-size: 43px;margin:0px;padding:0px;display: inline-block;position: 0px,0px;}
+
+ .drinks-h3{color:white;font-family:sans-serif;margin:0px;padding:0px;position:0px;float: left;}
+ .loveII-h3{color:black;font-family:sans-serif;margin:0px;padding:0px;position:0px;float: left;}
+ .loveanimation2{  width: 400px;
+   height: 200px;
+   background-color:none;
+   top:45px;
+   animation-name:loveanimation2;
+   animation-duration: 2s;
+   animation-iteration-count:1;
+  animation-fill-mode: forwards;
+
+ }
+
+ @keyframes loveanimation2 {
+   0%   { left:400px;}
+   100%  {left:20px;}
+
+  }
+
+  .carta2{width: 300px;height: 300px;display: inline-block;position: relative;left:-100px;margin: 0px,0px,padding:0px;
+
+  transition: width 2s, height 2s, transform 1s;
+}
+
+.carta2:hover {
+  width: 500px;
+  height: 500px;
+  transform: rotate(360deg)
+  ;
+}
+.MENU{animation-name:MENU;
+animation-duration: 2s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;
+animation-delay: 3s;
+TOP:1600PX;
+
+}
+
+@keyframes MENU {
+0%   { TOP:1600px;}
+100%  {TOP:0px;}
+
+}
+.carta2{animation-name:carta2;
+animation-duration: 2s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;
+animation-delay: 2s;
+TOP:1600PX;
+
+}
+
+@keyframes carta2 {
+0%   { TOP:1600px;}
+100%  {TOP:0px;}
+
+}
+.MENU{width: 300px;height: 300px;display: inline-block;position: relative;left:100px;margin: 0px,0px,padding:0px;
+
+transition: width 2s, height 2s, transform 1s;
+}
+
+.MENU:hover {
+width: 500px;
+height: 500px;
+transform: rotate(360deg)
+;
+}
+.snack{position: relative;border-style:none; border-width: 10px;text-decoration: none;color:white; font-weight: bolder;font-size: 100px;background-color:none;border-color: black;animation-name:snack;
+animation-duration: 2s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;
+animation-delay: 0s;
+TOP:1600PX;
+
+}
+
+@keyframes snack {
+0%   { TOP:2500px;}
+100%  {TOP:0px;}}
+.snack:hover{color:black;border-style: dotted;font-size: 130px;}
+.burgers{position: relative;border-style:none; border-width: 10px;text-decoration: none;color:white; font-weight: bolder;font-size: 90px;background-color:none;border-color: black;animation-name:burgers;
+animation-duration: 2s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;
+animation-delay: 0.6s;
+TOP:1600PX;
+
+}
+
+@keyframes burgers {
+0%   { TOP:1600px;}
+100%  {TOP:0px;}}
+.burgers:hover{color:black;border-style: dotted;font-size: 110px;}
+.salads{position: relative;border-style:none; border-width: 10px;text-decoration: none;color:white; font-weight: bolder;font-size: 100px;background-color:none;border-color: black;animation-name:salads;
+animation-duration: 2s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;
+animation-delay: 1s;
+TOP:1600PX;
+
+}
+
+@keyframes salads {
+0%   { TOP:1600px;}
+100%  {TOP:0px;}}
+.salads:hover{color:black;border-style: dotted;font-size: 130px;}
+.mains{position: relative;border-style:none; border-width: 10px;text-decoration: none;color:white; font-weight: bolder;font-size: 100px;background-color:none;border-color: black;animation-name:mains;
+animation-duration: 2s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;
+animation-delay: 1.5s;
+TOP:1600PX;
+
+}
+
+@keyframes mains {
+0%   { TOP:1600px;}
+100%  {TOP:0px;}}
+.mains:hover{color:black;border-style: dotted;font-size: 130px;}
+.kids{position: relative;border-style:none; border-width: 10px;text-decoration: none;color:white; font-weight: bolder;font-size: 100px;background-color:none;border-color: black;animation-name:kids;
+animation-duration: 2s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;
+animation-delay: 2s;
+TOP:1600PX;
+
+}
+
+@keyframes kids {
+0%   { TOP:1600px;}
+100%  {TOP:0px;}}
+.kids:hover{color:black;border-style: dotted;font-size: 130px;}
+.breakfast{position: relative;border-style:none; border-width: 10px;text-decoration: none;color:white; font-weight: bolder;font-size: 100px;background-color:none;border-color: black;animation-name:breakfast;
+animation-duration: 2s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;
+animation-delay: 2.4s;
+TOP:1600PX;
+
+}
+
+@keyframes breakfast {
+0%   { TOP:1600px;}
+100%  {TOP:0px;}}
+.breakfast:hover{color:black;border-style: dotted;font-size: 110px;}
+.desserts{ position: relative;border-style:none; border-width: 10px;text-decoration: none;color:white; font-weight: bolder;font-size: 100px;background-color:none;border-color: black;display: inline-block;animation-name:desserts;
+animation-duration: 2s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;
+animation-delay: 2.8s;
+TOP:1600PX;
+
+}
+
+@keyframes desserts {
+0%   { TOP:1600px;}
+100%  {TOP:0px;}
+}
+.desserts:hover{color:black;border-style: dotted;font-size: 130px;}
+.p1{font-size:80px;font-weight: bold;text-align: left;color: white;display: inline-block;position: relative;margin-bottom: -100px;padding:0px;margin-top: 0px;left:10px;}
+.price{font-size: 80px;font-weight: bold;position: relative;margin-left:100px;margin-right: 0px;padding-left: 0px;position: 0px,0px,0px,0px;display: inline-block;top:-30px;left: 300px;margin-bottom: 25px;}
+.p2{position: relative;font-size: 70px;top:-150px;margin: 0 auto 0 auto;padding: 0px;text-align: left;font-weight:200;}
+  .p3{font-size:80px;font-weight: bold;text-align: left;color: white;display: inline-block;position: relative;margin-bottom: -100px;padding:0px;margin-top: 0px;left:-100px;}
+  .p4{position: relative;font-size: 60px;top:-140px;margin: 0 auto 0 auto;padding: 0px; text-align: left;font-weight:200;}
+  .p5{position: relative;font-size: 60px;top:30px;margin: 0 auto 150px auto;padding: 0px; text-align: left;font-weight:200;}
+  .price2{font-size: 80px;font-weight: bold;position: relative;margin-left:0px;margin-right: 0px;padding-left: 0px;position: 0px,0px,0px,0px;display: inline-block;top:-30px;left: -55px;margin-bottom: 25px;top: 130px}
+  .p6{font-size:80px;font-weight: bold;text-align: left;color: white;display: inline-block;position: relative;margin-bottom: -100px;padding:0px;margin-top: 0px;left:-52px;}
